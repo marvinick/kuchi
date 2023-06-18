@@ -12,6 +12,7 @@
 		5876B7922A3FB2BB008A5705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5876B7912A3FB2BB008A5705 /* Assets.xcassets */; };
 		5876B7952A3FB2BB008A5705 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5876B7942A3FB2BB008A5705 /* Preview Assets.xcassets */; };
 		5876B79C2A3FB31F008A5705 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5876B79B2A3FB31F008A5705 /* WelcomeView.swift */; };
+		5876B7A22A3FBDEB008A5705 /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5876B7A12A3FBDEB008A5705 /* HorizontallyAlignedLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5876B7912A3FB2BB008A5705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5876B7942A3FB2BB008A5705 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5876B79B2A3FB31F008A5705 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5876B7A12A3FBDEB008A5705 /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				5876B7912A3FB2BB008A5705 /* Assets.xcassets */,
 				5876B7932A3FB2BB008A5705 /* Preview Content */,
 				5876B79B2A3FB31F008A5705 /* WelcomeView.swift */,
+				5876B7A12A3FBDEB008A5705 /* HorizontallyAlignedLabelStyle.swift */,
 			);
 			path = Kuchi;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				5876B7902A3FB2B9008A5705 /* ContentView.swift in Sources */,
 				5876B79C2A3FB31F008A5705 /* WelcomeView.swift in Sources */,
+				5876B7A22A3FBDEB008A5705 /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				5876B78E2A3FB2B9008A5705 /* KuchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
