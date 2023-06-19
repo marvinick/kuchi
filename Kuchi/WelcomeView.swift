@@ -10,32 +10,9 @@ import SwiftUI
 struct WelcomeView: View {
     var body: some View {
         ZStack {
-            Image("welcome-background", bundle: nil)
-            Label {
-                VStack(alignment: .leading) {
-                    Text("Welcome to")
-                        .font(.headline)
-                        .bold()
-                    Text("Kuchi")
-                        .font(.largeTitle)
-                        .bold()
-                }
-                .foregroundColor(.red)
-                .lineLimit(1)
-                .padding(.horizontal)
-            } icon: {
-                Image(systemName: "table")
-                    .resizable()
-                    .frame(width: 30, height: 30)
-                    .overlay(Circle().stroke(Color.gray, lineWidth: 1))
-                    .background(Color(white: 0.9))
-                    .clipShape(Circle())
-                    .foregroundColor(.red)
-            }
-            .labelStyle(HorizontallyAlignedLabelStyle())
+            WelcomeBackgroundImage()
+            WelcomeMessageView()
         }
-        
-        
     }
 }
 
@@ -44,3 +21,4 @@ struct WelcomeView_Previews: PreviewProvider {
         WelcomeView()
     }
 }
+
